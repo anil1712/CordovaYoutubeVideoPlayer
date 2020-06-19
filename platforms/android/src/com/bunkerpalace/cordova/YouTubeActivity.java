@@ -36,6 +36,7 @@ public class YouTubeActivity extends YouTubeBaseActivity implements YouTubePlaye
             player.loadVideo(videoId);
             player.setPlayerStateChangeListener(this);
         }
+        player.setPlayerStyle(YouTubePlayer.PlayerStyle.MINIMAL);
     }
 
     @Override
